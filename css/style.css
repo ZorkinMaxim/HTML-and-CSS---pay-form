@@ -61,25 +61,30 @@ hr{
     height: 30px;
     margin-bottom: 30px;
     margin-right: 25px;
-    /* padding: 12px;
     border: 1px solid;
-    border-radius: 3px; */
+    border-radius: 3px;
   }
 #lname, #email{
     width: 270px;
     height: 30px;
+    border: 1px solid;
+    border-radius: 3px;
 }
 
 #company{
     width: 570px;
     height: 30px;
     margin-bottom: 30px;
+    border: 1px solid;
+    border-radius: 3px;
 }
 
 #adress{
     width: 570px;
     height: 30px;
     margin-bottom: 20px;
+    border: 1px solid;
+    border-radius: 3px;
 }
 
 .input-form{
