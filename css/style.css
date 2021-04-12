@@ -21,19 +21,22 @@
     padding: 0;
 }
 
-.nav{
+.nav a{
     font-size: 11px;
     display: flex;
     list-style-type: none;
     padding: 0;
+    text-decoration: none;
 }
 
 .bank, .cash{
     margin-left: 5px;
+    color: #8b8b8b;
 }
 
 .factura{
     font-family: bald;
+    color: #000;
 }
 
 .cash{
@@ -100,8 +103,19 @@ hr{
     width: 570px;
     margin-top: 28px;
     background-color: #ffcd35;
+    /* text-align: center;
+    padding-top: 12px;
+    font-size: 16px;
+    font-family: 'Roboto Condensed', sans-serif; */
+}
+
+.order a{
+    display: block;
     text-align: center;
+    height: 100%;
     padding-top: 12px;
     font-size: 16px;
     font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+    color: #485c72;
 }
