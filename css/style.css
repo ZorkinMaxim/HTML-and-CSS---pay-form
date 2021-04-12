@@ -119,3 +119,11 @@ hr{
     text-decoration: none;
     color: #485c72;
 }
+
+#page2, #page3 {
+    display: none;  
+  }
+  
+  /* #page2:target, #page3:target {
+    display: block;
+  } */
