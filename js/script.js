@@ -8,3 +8,10 @@ document.querySelector('#push').onclick = () => {
     console.log(n + " " + s)
 }
 
+function show(shown, hidden, hidden_2) {
+    document.getElementById(shown).style.display = 'block';
+    document.getElementById(hidden).style.display = 'none';
+    document.getElementById(hidden_2).style.display = 'none';
+
+    return false;
+}
