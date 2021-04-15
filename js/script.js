@@ -15,4 +15,3 @@ function show(shown, hidden, hidden_2) {
 
     return false;
 }
-

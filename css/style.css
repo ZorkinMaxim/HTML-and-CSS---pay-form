@@ -87,11 +87,11 @@ hr{
     margin-top: 0px;
 }
 
-.name{
+.name, .holder_name{
     margin-top: 50px;
 }
 
-#fname, #number {
+#fname, #number, #exp-date {
     width: 270px;
     height: 30px;
     margin-bottom: 30px;
@@ -99,14 +99,14 @@ hr{
     border: 1px solid;
     border-radius: 3px;
   }
-#lname, #email{
+#lname, #email, #sec-code{
     width: 270px;
     height: 30px;
     border: 1px solid;
     border-radius: 3px;
 }
 
-#company{
+#company, #nameofholder, #cardnumber{
     width: 570px;
     height: 30px;
     margin-bottom: 30px;
